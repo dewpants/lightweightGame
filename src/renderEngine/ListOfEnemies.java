@@ -22,15 +22,10 @@ public class ListOfEnemies {
         for(Enemy curr : listofEnemies) {
             curr.update();
         }
-        //can be used to delete enemies after a while
-        /*
-        Iterator<Enemy> iter = listofEnemies.iterator();
-        while (iter.hasNext()) {
-            Enemy temp = iter.next();
-            if (temp.getLaserPosition()[1] > 600)
-                iter.remove();
-        }
-        */
+    }
+
+    public void clearEnemies() {
+        listofEnemies.clear();
     }
 
 }

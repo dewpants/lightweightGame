@@ -36,8 +36,7 @@ public class Laser {
 
     public void update() {
 
-        this.yPos += 10f;
-        //System.out.println(yPos);
+        this.yPos += 15f;
     }
 
 }

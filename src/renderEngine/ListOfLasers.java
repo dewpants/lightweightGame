@@ -18,7 +18,6 @@ public class ListOfLasers {
 
     public void add(Laser laser) {
         listofLasers.add(laser);
-        System.out.println(listofLasers);
     }
 
     public void update() {
@@ -28,7 +27,7 @@ public class ListOfLasers {
         Iterator<Laser> iter = listofLasers.iterator();
         while (iter.hasNext()) {
             Laser temp = iter.next();
-            if (temp.getPosition()[1] > 600)
+            if (temp.getPosition()[1] > 605)
                 iter.remove();
         }
     }

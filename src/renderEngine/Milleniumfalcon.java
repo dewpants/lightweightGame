@@ -16,6 +16,8 @@ public class Milleniumfalcon {
     //variables
     private static float lowerLeftX;
     private static float lowerLeftY;
+    private static boolean singleCannon = false;
+    private static boolean twinCannon = true;
 
     //constructor
     public Milleniumfalcon(float x, float y) {
@@ -39,16 +41,13 @@ public class Milleniumfalcon {
 
         // keep quad on the screen
         if (this.lowerLeftX < 0) this.lowerLeftX = 0;
-        if (this.lowerLeftX + 50 > 820) this.lowerLeftX = 770;
+        if (this.lowerLeftX + 50 > 800) this.lowerLeftX = 750;
         if (this.lowerLeftY < 0) this.lowerLeftY = 0;
-        if (this.lowerLeftY + 50 > 480) this.lowerLeftY = 430;
+        if (this.lowerLeftY + 50 > 605) this.lowerLeftY = 555;
     }
 
     //displays the falcon and lasers on the screen
     public void display() {
-
-        // clear the screen and depth buffer
-        //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);   NEEDED??
 
         // set the color of the quad (R,G,B,A)
         glColor3f(0.5f,0.5f,1.0f);
@@ -63,8 +62,21 @@ public class Milleniumfalcon {
     }
 
     public void shoot(ListOfLasers lasersList) {
-        Laser newLaser = new Laser(this.lowerLeftX, this.lowerLeftY);
-        lasersList.add(newLaser);
+        if (singleCannon == true) {
+            Laser newLaser = new Laser(this.lowerLeftX, this.lowerLeftY);
+            lasersList.add(newLaser);
+        }
+        if (twinCannon == true) {
+            System.out.println("shooting double");
+            Laser newLaser = new Laser(this.lowerLeftX - 10f, this.lowerLeftY);
+            Laser newLaser2 = new Laser(this.lowerLeftX + 10f, this.lowerLeftY);
+            lasersList.add(newLaser);
+            lasersList.add(newLaser2);
+        }
+    }
+
+    public void setCapabilities() {
+
     }
 
 }

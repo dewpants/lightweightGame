@@ -8,6 +8,7 @@ public class TieFighter implements Enemy {
 
     private float xPos;
     private float yPos;
+    private int health = 1;
 
     public TieFighter() {
 
@@ -15,7 +16,7 @@ public class TieFighter implements Enemy {
         int num = rand.nextInt(780) + 1;
 
         this.xPos = (float) num;
-        this.yPos = 800f;
+        this.yPos = 620f;
     }
 
     public void display() {
@@ -27,8 +28,8 @@ public class TieFighter implements Enemy {
 
         glBegin(GL_TRIANGLES);
             GL11.glVertex2f( this.xPos, this.yPos );
-            GL11.glVertex2f( this.xPos + 20f, this.yPos );
-            GL11.glVertex2f( this.xPos + 10f, this.yPos - 20f );
+            GL11.glVertex2f( this.xPos + 30f, this.yPos );
+            GL11.glVertex2f( this.xPos + 15f, this.yPos - 30f );
         glEnd();
     }
 
@@ -39,12 +40,19 @@ public class TieFighter implements Enemy {
         if (this.xPos < 0) this.xPos = 0;
         if (this.xPos + 50 > 820) this.xPos = 770;
         if (this.yPos < 0) this.yPos = 800f;
-        //if (this.yPos + 50 > 480) this.yPos = 430;
     }
 
     public float[] getPosition() {
         float[] location = {this.xPos, this.yPos};
         return location;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void decHealth() {
+        health--;
     }
 
 }
