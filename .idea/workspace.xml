@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0ced72d-127d-4816-8afc-c4d71702c05d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/slick_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/renderEngine/TieBomber.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/davidmarnocha.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/davidmarnocha.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/GAME.iml" afterPath="$PROJECT_DIR$/GAME.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/GAME/lightweightGame/main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GAME/renderEngine/Enemy.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GAME/renderEngine/Laser.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GAME/renderEngine/ListOfEnemies.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GAME/renderEngine/ListOfLasers.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GAME/renderEngine/MainLoop.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GAME/renderEngine/Milleniumfalcon.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GAME/renderEngine/TieFighter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/renderEngine/Enemy.java" afterPath="$PROJECT_DIR$/src/renderEngine/Enemy.java" />
-      <change beforePath="$PROJECT_DIR$/src/renderEngine/Laser.java" afterPath="$PROJECT_DIR$/src/renderEngine/Laser.java" />
-      <change beforePath="$PROJECT_DIR$/src/renderEngine/ListOfEnemies.java" afterPath="$PROJECT_DIR$/src/renderEngine/ListOfEnemies.java" />
-      <change beforePath="$PROJECT_DIR$/src/renderEngine/ListOfLasers.java" afterPath="$PROJECT_DIR$/src/renderEngine/ListOfLasers.java" />
-      <change beforePath="$PROJECT_DIR$/src/renderEngine/MainLoop.java" afterPath="$PROJECT_DIR$/src/renderEngine/MainLoop.java" />
-      <change beforePath="$PROJECT_DIR$/src/renderEngine/Milleniumfalcon.java" afterPath="$PROJECT_DIR$/src/renderEngine/Milleniumfalcon.java" />
-      <change beforePath="$PROJECT_DIR$/src/renderEngine/TieFighter.java" afterPath="$PROJECT_DIR$/src/renderEngine/TieFighter.java" />
-    </list>
+    <list default="true" id="c0ced72d-127d-4816-8afc-c4d71702c05d" name="Default" comment="" />
     <ignored path="GAME.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,8 +26,8 @@
       <file leaf-file-name="MainLoop.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/renderEngine/MainLoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2254">
-              <caret line="156" column="25" lean-forward="true" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="25" />
+            <state relative-caret-position="15">
+              <caret line="156" column="25" lean-forward="false" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,9 +164,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="1262" />
     <option name="height" value="773" />
   </component>
   <component name="ProjectView">
@@ -206,6 +184,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -218,8 +198,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -531,10 +509,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="0" y="23" width="1262" height="773" extended-state="0" />
     <layout>
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16997617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16921838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -921,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderEngine/MainLoop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2254">
-          <caret line="156" column="25" lean-forward="true" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="25" />
+        <state relative-caret-position="15">
+          <caret line="156" column="25" lean-forward="false" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
